@@ -1,0 +1,15 @@
+site_name: Algoritmos ML Para Diabetes
+
+theme: terminal
+
+nav:
+  - Início: introduction.md
+  - O Dataset: the_dataset.md
+  - Algoritmos Não Supervisionado:
+    - K-Means: "unsupervised_learning/k_means.md"
+  - Algoritmos de Classificação:
+    - Random Florest: "supervised_learning/random_florest.md"
+    - XGBoost: "supervised_learning/xgboost.md"
+    - KNN: "supervised_learning/knn.md"
+    - MLP: "supervised_learning/mlp.md"
+    - SVM: "supervised_learning/svm.md"
