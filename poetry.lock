@@ -212,6 +212,25 @@ platformdirs = ">=2.2.0"
 pyyaml = ">=5.1"
 
 [[package]]
+name = "mkdocs-terminal"
+version = "4.7.0"
+description = "Terminal.css theme for MkDocs"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "mkdocs_terminal-4.7.0-py3-none-any.whl", hash = "sha256:6a223bcef762728f5bcdba045b4acabc3d119ae9215160693f45be8a09889815"},
+    {file = "mkdocs_terminal-4.7.0.tar.gz", hash = "sha256:9a8abcc560d66974a3fcfac9381167c7a3d52add1c30403b8cf35b3d2b10362e"},
+]
+
+[package.dependencies]
+jinja2 = ">=2.10"
+markdown = "*"
+mkdocs = ">=1.4.2"
+pygments = "*"
+pymdown-extensions = "*"
+
+[[package]]
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -251,6 +270,40 @@ files = [
 docs = ["furo (>=2024.8.6)", "proselint (>=0.14)", "sphinx (>=8.1.3)", "sphinx-autodoc-typehints (>=3)"]
 test = ["appdirs (==1.4.4)", "covdefaults (>=2.3)", "pytest (>=8.3.4)", "pytest-cov (>=6)", "pytest-mock (>=3.14)"]
 type = ["mypy (>=1.14.1)"]
+
+[[package]]
+name = "pygments"
+version = "2.19.2"
+description = "Pygments is a syntax highlighting package written in Python."
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b"},
+    {file = "pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"},
+]
+
+[package.extras]
+windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
+name = "pymdown-extensions"
+version = "10.16"
+description = "Extension pack for Python Markdown."
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "pymdown_extensions-10.16-py3-none-any.whl", hash = "sha256:f5dd064a4db588cb2d95229fc4ee63a1b16cc8b4d0e6145c0899ed8723da1df2"},
+    {file = "pymdown_extensions-10.16.tar.gz", hash = "sha256:71dac4fca63fabeffd3eb9038b756161a33ec6e8d230853d3cecf562155ab3de"},
+]
+
+[package.dependencies]
+markdown = ">=3.6"
+pyyaml = "*"
+
+[package.extras]
+extra = ["pygments (>=2.19.1)"]
 
 [[package]]
 name = "python-dateutil"
@@ -403,4 +456,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "6b86dca7a3b7a050dd4595877c848a11ec57afe4e61a3fe7e9f0c3994b95eef3"
+content-hash = "b224ead6665b180a95eee3ea506c03af21ecc40fe27c143c123d8b0b00d84a0d"

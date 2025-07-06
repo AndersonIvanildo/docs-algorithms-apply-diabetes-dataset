@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Docs with Poetry
 
 on:
   push:
@@ -10,15 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: '3.11'
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
       - name: Install dependencies
-        run: |
-          pip install mkdocs
-          pip install mkdocs-terminal
-      - name: Deploy
-        run: mkdocs gh-deploy --force
+        run: poetry install --no-interaction
+
+      - name: Deploy with MkDocs
+        run: poetry run mkdocs gh-deploy --force
