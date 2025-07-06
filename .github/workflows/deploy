@@ -16,6 +16,7 @@ jobs:
           python-version: 3.11
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-terminal
+          pip install mkdocs
+          pip install mkdocs-terminal
       - name: Deploy
         run: mkdocs gh-deploy --force
