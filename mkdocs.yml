@@ -4,7 +4,7 @@ site_url: https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-data
 theme: terminal
 
 nav:
-  - Início: introduction.md
+  - Início: index.md
   - O Dataset: the_dataset.md
   - Algoritmos Não Supervisionado:
     - K-Means: "unsupervised_learning/k_means.md"
