@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/the_dataset/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/supervised_learning/knn/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/supervised_learning/mlp/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/supervised_learning/random_florest/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/supervised_learning/svm/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/supervised_learning/xgboost/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+    <url>
+         <loc>https://andersonivanildo.github.io/docs-algorithms-apply-diabetes-dataset/unsupervised_learning/k_means/</loc>
+         <lastmod>2025-07-07</lastmod>
+    </url>
+</urlset>
